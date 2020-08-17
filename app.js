@@ -10,7 +10,7 @@ const hbs = require("hbs");
 
 const app = express();
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000
 
 app.engine("hbs", expressHbs(
     {
@@ -256,7 +256,7 @@ function spliting (fnarr){
     } return result;
 }
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(PORT, function(){
     console.log("port 3000")
 })
 
