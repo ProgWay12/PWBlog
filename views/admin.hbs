@@ -1,0 +1,24 @@
+<nav class="adminmenu">
+    <ul>
+        <li><a class="adminamenu" href="/admin">Админ</a></li>
+        <li><a class="adminamenu" href="/adminposts">Посты</a></li>
+    </ul>           
+</nav>
+<form class="adminpanel" method="POST" action="/admin" enctype="multipart/form-data">
+    <label>Заголовок</label><br>
+    <input name="title" class="field"/><br><br>
+    <label>Текст</label><br>
+    <textarea name="maintext" type="text" class="field" min="1" rows="10" cols="20"></textarea><br><br>
+    <label>Превью</label><br>
+    <input name="filedata" type="file"><br><br>
+    <label>Файл</label>
+    <input name="downloadfile" type="file"><br><br>
+    <select name="selectcategory">
+        <option selected="selected" disabled="disabled">Категория</option>
+        <option id="1" value="soft">Софт</option>
+        <option id="2" value="codewars">Задача</option>
+        <option id="3" value="posts">Статья</option>
+        <option id="4" value="1">1 палуба</option>
+    </select><br><br>
+    <input type="submit" value="Отправить" />
+</form>

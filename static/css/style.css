@@ -1,0 +1,490 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+body {
+    background-color: #2D303C;
+    color: white
+}
+img {
+    width: 100%;
+}
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+p {
+    font-family: 'Didact Gothic', sans-serif;
+}
+hr {
+    margin-top: 3%;
+    border: none;
+    color: #9966cc;
+    background-color: #9966cc;
+    height: 3px;
+    border-radius: 100px;
+    width: 0%;
+}
+.step0 {
+    width: 0%;
+}
+.step1 {
+    width: 10%;
+}
+.step2 {
+    width: 20%;
+}
+.step3 {
+    width: 30%;
+}
+.step4 {
+    width: 40%;
+}
+.step5 {
+    width: 50%;
+}
+.step6 {
+    width: 60%;
+}
+.step7 {
+    width: 70%;
+}
+.step8 {
+    width: 80%;
+}
+.step9 {
+    width: 90%;
+}
+.step10 {
+    width: 100%;
+}
+
+.menu {
+    display: block;
+    width: 100%;
+    padding-bottom: 0;
+    box-shadow: 0px 15px 5px 10px #272933;	
+}
+ul {
+    list-style: none; 
+    margin: 0% 0%;
+}
+.menu li {
+    padding-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+.menu ul {
+    display: flex;  
+    background: #18171c;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100%;
+}
+.menu a {
+    height: 100%;
+    display: block;
+    color: white;
+    font-weight: bold;
+    background: #18171c;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu li {
+    width: 15%;
+    padding-left: 4.3%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.amenu {
+    padding-top: 4%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.amenu img {
+    width: 20%;
+}
+.main {
+    margin: auto 20%;
+    width: 60%;
+    height: 100%;
+    background: rgba(24, 23, 28, 0.5);
+    margin-top: 2%;
+    box-shadow: 15px 15px 5px 10px #272933;
+}
+.title {
+    color: #cabce4;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-top: 1.5%;
+}
+.posts {
+    display: block;
+    width: 100%;
+    padding-bottom: 3%;
+}
+.article_title {
+    display: inline-block;
+}
+.article:hover {
+    background-color: #1D1E25;
+}
+.logo{
+    display: block;
+}
+.logo ul {
+    display: inline-block;   
+}
+.logo h1 {
+    margin: 0;
+    padding-bottom: 15%;
+    font-family: 'Permanent Marker', cursive;
+}
+.prog {
+    color: white;
+    font-size: 25px;
+}
+.way {
+    color: #9966cc;
+    font-size: 25px;
+}
+.horarticle {
+    padding-top: 2%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    display: block;
+    width: 100%;
+}
+.horarticle:hover {
+    background-color: #1D1E25;
+}
+.imghorarticle {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+}
+.texthorarticle {
+    display: inline-block;
+    width: 65%;
+    margin-left: 2%;
+    height: 100%;
+}
+footer {
+    background-color: #D8BFD8;
+    border-top: gray;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    position: absolute;
+    width: 100%;
+    height: 5%;
+}
+footer p {
+    padding-left: 5%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+.adminpanel {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.onearticle {
+    padding-bottom: 5%;
+}
+
+.onearticle img {
+    display: inline-block;
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 3%;
+}
+
+.onearticle p {
+    font-size: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.downloader {
+    margin-top: 3%;
+    display: inline-block;
+    width: 60%;
+    font-size: 80%;
+    color: rgba(255,255,255,.9);
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    border: 1px solid;
+    border-color: rgba(24, 23, 28, 0.5);
+    background: rgba(24, 23, 28, 0.1);
+    border-radius: 6px;
+    outline: none;
+    margin-left: 20%;
+}
+
+.downloader h1 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+
+.downloader:hover {
+    background-color: #9966cc;
+}
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.login-form h1 {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+}
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.adminmenu {
+    display: block;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.adminmenu li {
+    padding-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+.adminmenu ul {
+    display: flex;  
+    background: #18171c;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100%;
+}
+.adminmenu a {
+    height: 100%;
+    display: block;
+    color: white;
+    font-weight: bold;
+    background: #18171c;
+    text-decoration: none;
+    font-size: 18px;
+}
+.adminmenu li {
+    width: 45%;
+    padding-left: 4.3%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.adminamenu {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.adaptionmenu {
+    display: block;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.adaptionmenu h1 {
+    padding-top: 13%;
+}
+
+.adaptionprog{
+    font-size: 60px;
+    display: inline-block;
+}
+
+.adaptionway {
+    color: #9966cc;
+    font-size: 60px;
+    display: inline-block;
+}
+.mainul {
+    display: flex;
+    padding-left: 15%;
+    height: 100%;
+    background-color: #18171c;
+}
+.adaptionmenu a {
+    height: 100%;
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.adaptionlogo{
+    display: inline-block;
+    display: block;
+}
+.adaptionlogo ul {
+    display: inline-block;   
+}
+.adaptionlogo h1 {
+    margin: 0;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.adaptionmain {
+    width: 100%;
+    height: 100%;
+    background-color: #2D303C;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 35px;
+}
+
+.adaptionmain h1 {
+    margin-top: 2%;
+    font-size: 50px;
+}
+
+.article {
+    padding: 2% 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    display: inline-block;
+    background: rgba(24, 23, 28, 0.5);
+    width: unset;
+}
+
+.imgarticle {
+    width: 100%;
+}
+
+.textarticle {
+    width: 100%;
+    height: 100%;
+}
+
+.adaptionmenu h3 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.topmenu {
+    padding-left: 50%;
+    padding-top: 6%;
+    height: 100%;
+}
+.adaptionmenu .submenu {
+    -webkit-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+      transform: scaleY(0);
+    -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+}
+.adaptionmenu ul li:hover .submenu {
+    -webkit-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+      transform: scaleY(1);
+}
+.adaptionmenu ul a {
+    color: white;
+}
+
+.adaptionamenu {
+    font-size: 30px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 8%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.adaptionamenu img {
+    padding-top: 20%;
+    width: 150%;
+}
+
+.adaptiononearticle {
+    padding-bottom: 5%;
+}
+
+.adaptiononearticle img {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.adaptiononearticle p {
+    font-size: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.adaptiondownloader {
+    margin-top: 3%;
+    display: inline-block;
+    width: 60%;
+    font-size: 80%;
+    color: rgba(255,255,255,.9);
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    border: 1px solid;
+    border-color: rgba(153, 102, 204);
+    background: rgba(153, 102, 204);
+    border-radius: 6px;
+    outline: none;
+    margin-left: 20%;
+}
+
+.adaptiondownloader h1 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 6%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.code {
+    background: rgba(157, 161, 170, 0.2);
+    border-radius: 20px;
+    margin-right: 18%;
+    margin-left: 18%;
+}
+
+.code p {
+    padding: 1% 4%;
+    font-family: 'Poiret One', cursive;
+}
+
+.btnback img {
+    width: 300%;
+    margin-top: 150%;
+}

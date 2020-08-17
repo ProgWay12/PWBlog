@@ -1,0 +1,12 @@
+<div class="onearticle">
+    <h1 class="title">{{post.obj.title}}</h1>
+    <img src={{post.obj.img}} alt="">
+    {{#each post.text}}
+        <p>{{this}}</p>
+    {{/each}}
+    <a href={{post.obj.downloadfile}} download>
+        <div class="downloader">
+            <h1>Скачать файл</h1>
+        </div>
+    </a>
+</div>

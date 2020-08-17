@@ -1,0 +1,15 @@
+
+<h1 class="title" id="page_title">Свежие посты</h1>
+<div class="posts">
+    {{#each posts}}
+        <div class="horarticle">
+            <a href="/article/{{this.id}}">
+                <img class="imghorarticle" src={{this.img}} alt="">
+                <div class="texthorarticle">
+                    <h1 class="">{{this.title}}</h1>
+                    <p class="article_text">{{this.maintext}}</p>
+                 </div>
+            </a>
+        </div>
+    {{/each}}
+</div>
