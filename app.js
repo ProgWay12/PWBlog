@@ -37,7 +37,7 @@ const pool = mysql.createPool({
     host: "remotemysql.com",
     port: 3306,
     user: "OF3TwtRr8O",
-    password: "r3jeOW7DRo",
+    password: "vGPYNhACke",
     database: "OF3TwtRr8O"
 });
 
