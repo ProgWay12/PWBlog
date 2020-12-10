@@ -36,9 +36,9 @@ const pool = mysql.createPool({
     connectionLimit: 5,
     host: "remotemysql.com",
     port: 3306,
-    user: "OF3TwtRr8O",
-    password: "vGPYNhACke",
-    database: "OF3TwtRr8O"
+    user: "nUoHE6zOK6",
+    password: "KOpJ6MUPDm",
+    database: "nUoHE6zOK6"
 });
 
 const storageConfig = multer.diskStorage({
